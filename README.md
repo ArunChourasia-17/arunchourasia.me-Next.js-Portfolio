@@ -1,7 +1,7 @@
 # AKC_Next.js_Portfolio Using TailwindCSS & Framer Motion
 
 > I have developed this amazing Responsive Portfolio Website Using HTML5 TailwindCSS Javascript React.js Next.js & Framer Motion this are the used technologies to make this project. It is not a complete production website & not collect any user data, it is used as a demo version to see a complete Nextjs_Portfolio website & it is deployed/host on a VERCEL.com. It can be further modified to make it a deployment stage for commercial purpose uses.<br>
-<br>T Stands for :<br>
+<br>TJsRNF Stands for :<br>
 T - Tailwind CSS (Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.)<br>
 Js - Javascript (JavaScript (JS) is a lightweight interpreted (or just-in-time compiled) programming language with first-class functions.)<br>
 R - React.js (React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript.)<br>
