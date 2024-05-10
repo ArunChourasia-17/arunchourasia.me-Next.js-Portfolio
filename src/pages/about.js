@@ -10,6 +10,7 @@ import Experience from '@/components/Experience';
 import LiIcon from '@/components/LiIcon';
 import Education from '@/components/Education';
 import TransitionEffect from '@/components/TransitionEffect';
+import Achievements from '@/components/Achievements';
 
 const AnimatedNumbers = ({ value }) => {
     const ref = useRef(null);
@@ -31,7 +32,7 @@ const AnimatedNumbers = ({ value }) => {
             }
         })
 
-    }, {springValue, value})
+    }, [springValue, value])
 
     return <span ref={ref}></span>
 }
@@ -53,16 +54,16 @@ const about = () => {
                         <div className='col-span-3 flex flex-col items-start justify-start xl:col-span-4 md:order-2 md:col-span-8'>
                             <h2 className='mb-4 text-lg font-bold uppercase text-dark/75 dark:text-light/75'>Biography</h2>
                             <p className='font-medium'>
-                                Hi, I'm Arun Chourasia, a web developer and UI/UX designer with a passion for creating beautiful, functional,
+                                Hi, I&apos;m Arun Chourasia, a web developer and UI/UX designer with a passion for creating beautiful, functional,
                                 and user-centered digital experiences. With 1 years of experience in the field. I am always looking for
-                                new and innovative ways to bring my clients' visions to life.
+                                new and innovative ways to bring my client&apos;s visions to life.
                             </p>
                             <p className='my-4 font-medium'>
-                                I believe that design is about more than just making things look pretty – it's about solving problems and
+                                I believe that design is about more than just making things look pretty, it&apos;s about solving problems and
                                 creating intuitive, enjoyable experiences for users.
                             </p>
                             <p className='font-medium'>
-                                Whether I'm working on a website, mobile app, or
+                                Whether I&apos;m working on a website, mobile app, or
                                 other digital product, I bring my commitment to design excellence and user-centered thinking to
                                 every project I work on. I look forward to the opportunity to bring my skills and passion to your next project.
                             </p>
@@ -80,21 +81,21 @@ const about = () => {
                                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                                     <AnimatedNumbers value={20} />+
                                 </span>
-                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>satisfied clients</h2>
+                                <h2 className='text-xl font-medium capitalize text-dark-75 dark:text-light-75 xl:text-center md:text-lg sm:text-base xs:text-sm'>satisfied clients</h2>
                             </div>
 
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                                     <AnimatedNumbers value={10} />+
                                 </span>
-                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>projects completed</h2>
+                                <h2 className='text-xl font-medium capitalize text-dark-75 dark:text-light-75 xl:text-center md:text-lg sm:text-base xs:text-sm'>projects completed</h2>
                             </div>
  
                             <div className='flex flex-col items-end justify-center xl:items-center'>
                                 <span className='inline-block text-7xl font-bold md:text-6xl sm:text-5xl xs:text-4xl'>
                                     <AnimatedNumbers value={1} />+
                                 </span>
-                                <h2 className='text-xl font-medium capitalize text-dark/75 dark:text-light/75 xl:text-center md:text-lg sm:text-base xs:text-sm'>years of experience</h2>
+                                <h2 className='text-xl font-medium capitalize text-dark-75 dark:text-light-75 xl:text-center md:text-lg sm:text-base xs:text-sm'>years of experience</h2>
                             </div>
                         </div>
 
@@ -103,6 +104,7 @@ const about = () => {
                     <Skills />
                     <Experience />
                     <Education />
+                    <Achievements />
                 </Layout>
             </main>
         </>

@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { motion, useScroll } from 'framer-motion';
 import LiIcon from './LiIcon';
 
-const Details = ({ type, time, place, info }) => {
+const Details = ({ type, place, info }) => {
     const ref = useRef(null);
     return ( <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]'>
 
@@ -16,8 +16,9 @@ const Details = ({ type, time, place, info }) => {
                 {type}
             </h3>
             <span className='capitalize font-medium text-dark/75 dark:text-light/75 xs:text-sm'>
-                {time} | {place}
+                {place}
             </span>
+            div
             <p className='font-medium w-full md:text-sm'>
                 {info}
             </p>
@@ -26,7 +27,7 @@ const Details = ({ type, time, place, info }) => {
     );
 };
 
-const Education = () => {
+const Achievements = () => {
     const ref = useRef(null);
     const {scrollYProgress} = useScroll(
         {
@@ -37,29 +38,34 @@ const Education = () => {
   return (
     <div className='my-64'>
     <h2 className='font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16'>
-        Education
+        Achievements
     </h2>
     <div ref={ref} className='w-[75%] mx-auto relative lg:w-[90%] md:w-full'>
     <motion.div 
     style={{scaleY: scrollYProgress}}
     className='absolute left-9 top-0 w-[4px] h-full bg-dark origin-top dark:bg-light md:w-[2px] md:left-[30px] xs:left-[20px]' />
 
-        <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
+        <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2' >
             <Details 
-            type="BACHELOR OF TECHNOLOGY IN INFORMATION TECHNOLOGY" time="2021-2025"
-            place="Asansol Engineering College aff. to (MAKAUT formerly WBUT) | Curr. SGPA: 8.1"
-            info="⦾ Relevant courses includes Data Structures and Algorithms, Object-Oriented Programming, Operating System, Database Management System [SQL/NoSQL], Computer Networks,  Software Engineering, Testing, and Artificial 
-            Intelligence."
+            type="COMPETITIVE PROGRAMMING & CS/IT CORE FUNDAMENTALS"
+            place="Platforms : GeeksforGeeks | LeetCode | HackerRank"
+            info="⦾ 150+ problems solved at geeksforgeeks.com
+            ⦾ 183th rank among 1500+ college mates on geeksforgeeks
+            ⦾ 100+ problems solved at leetcode.com ⦾ 100+ problems solved at hackerrank.com ⦾ Till 350+ problems solved at different platforms
+            ⦾ Good Knowledge of DSA Fundamentals & Core Concepts: Database/Operating System/Networking/Software Testing etc."
             />
              <Details 
-            type="HIGHER SECONDARY - (PCM)" time="2019-2021"
-            place="DAV Public School (DCH) | Cum. Per: 75%"
-            info="⦾ Relevant courses includes Physics, Chemistry, Mathematics & General Language Subjects Hindi & English. Apart from this some extra Co-Curricular activities includes Seminars, Sports, & Vist to NCL sites."
+            type="CURRICULAR ACTIVITIES"
+            place="Place : At School & College Level..."
+            info="⦾ In 12th: Got 1st Prize in Innovative IDEA Submission (Online).
+            - (LiFi: light fidelity Technology)
+            ⦾ In 10th: Got 2nd Prize in Debate/GD Competition."
             />
              <Details 
-            type="SECONDARY" time="2009-2019"
-            place="DAV Public School (DCH) | Cum. Per: 81.6%"
-            info="⦾ Relevant courses includes Basic Mathematics, Science, Social Science, Computer Applications & General Language Subjects Hindi & English."
+            type="CO-CURRICULAR ACTIVITIES"
+            place="Place : At School & College Level..."
+            info="⦾ In 11th: SILVER MEDAL - Regional Volleyball
+            ⦾ In 12th: BRONZE MEDAL - In 1600m (6m:45s)"
             />
         
         </ul>
@@ -68,4 +74,4 @@ const Education = () => {
   );
 };
 
-export default Education;
+export default Achievements;

@@ -48,26 +48,29 @@ const Experience = () => {
             <Details 
             position="Web Developer" company="Prodigy InfoTech"
             companyLink="www.prodigyinfotech.com"
-            time="01/04/2024 - 30/04/2024" address="Asansol, (WB) India"
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
+            time="01/04/2024 - 30/04/2024" address="Asansol, (WB) India | [Remote]"
+            work="⦾ Worked on a task responsible for developing new features for our
+            Personal Portfolio Website. Maked responsive, added some amazing visual effects 
+            for looking attractive & stunning view of the website.
+            Tech Used : TailwindCSS/Next.js/Framer Motion"
             />
             <Details 
             position="Java Developer" company="Code Clause"
             companyLink="www.codeclause.com"
-            time="01/09/2023 - 30/09/2023" address="Asansol, (WB) India"
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
+            time="01/09/2023 - 30/09/2023" address="Asansol, (WB) India | [Remote]"
+            work="⦾ Worked on a task responsible for developing new features for  
+            Restaurant Management System. It including improving the accuracy and relevance of search results and 
+            developing new tools for data analysis and visualization.
+            Tech Used : Advance-Java/Servlet API/JDBC/MySQL"
             />
              <Details 
-            position="Web Developer & Designer" company="Oasis Infobyte"
+            position="Web Developer" company="Oasis Infobyte"
             companyLink="www.oasisinfobyte.com"
-            time="01/02/2023 - 28/02/2023" address="Asansol, (WB) India"
-            work="Worked on a team responsible for developing new features for Google's 
-            search engine, including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization."
+            time="01/02/2023 - 28/02/2023" address="Asansol, (WB) India | [Remote]"
+            work="⦾ Worked on a task responsible for developing new features for Food Delivery Web App.
+            Make responsive & user friendly features for customers as well as for admin panel,
+            added multiple payment options via online using debit cards, RazorPay & UPI with the help of stripe payment tools.
+            Tech Used : MongoDB,Express.js,React.js,Node.js."
             />
         </ul>
     </div>
