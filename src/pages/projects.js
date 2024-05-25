@@ -6,8 +6,8 @@ import Layout from '@/components/Layout';
 import { GithubIcon } from '@/components/Icons';
 import AnimatedText from '@/components/AnimatedText';
 import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
-import project2 from "../../public/images/projects/agency-website-cover-image.jpg";
-import project3 from "../../public/images/projects/devdreaming.jpg";
+import project2 from "../../public/images/projects/Sorting Visualizer.png";
+import project3 from "../../public/images/projects/PizzaResto.png";
 import project4 from "../../public/images/projects/fashion-studio-website.jpg";
 import project5 from "../../public/images/projects/nft-collection-website-cover-image.jpg";
 import project6 from "../../public/images/projects/portfolio-cover-image.jpg";
@@ -108,26 +108,27 @@ const projects = () => {
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Agency Website Application"
+                                title="Sorting Visualizer"
                                 img={project2}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
-                                link="/"
-                                github="https://github.com/ArunChourasia-17"
-                                type="Featured Project"
+                                summary="Sorting-Visualizer : It provides a visual representation of time complexity & space complexity 
+                                of different algorithms. It has multiple features such as generate new array, increase/decrease the 
+                                size of array, & speed the sorting process as you want. It is amazing to experience how much 
+                                time taken by each algorithms."
+                                link="https://sorting-visualizer-121.netlify.app/"
+                                github="https://github.com/ArunChourasia-17/Sorting_Visualizer"
+                                type="Personal Project"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
                             <Project
-                                title="Devdreaming Website"
+                                title="Food Delivery Web Page"
                                 img={project3}
-                                summary="A feature-rich Crypto Screener App using React, Tailwind CSS, Context API, React Router and Recharts. 
-                            It shows detail regarding almost all the cryptocurrency. You can easily convert the price in your 
-                            local currency."
-                                link="/"
-                                github="https://github.com/ArunChourasia-17"
-                                type="Featured Project"
+                                summary="FooD Ordering Web Design : At Pizza Restaurant, we're passionate about serving delicious 
+                                pizzas made with fresh, high-quality ingredients. Our menu features offers a variety of traditional 
+                                and specialty pizzas, as well as pizza dough/base, sauce, cheese type and you can opt. our veggies."
+                                link="https://pizza-restaurant-frontend-design.netlify.app/"
+                                github="https://github.com/ArunChourasia-17/PizzaResto.-Frontend-Design"
+                                type="Personal Project"
                             />
                         </div>
 
@@ -152,7 +153,7 @@ const projects = () => {
                             local currency."
                                 link="/"
                                 github="https://github.com/ArunChourasia-17"
-                                type="Featured Project"
+                                type="Personal Project"
                             />
                         </div>
                         <div className='col-span-6 sm:col-span-12'>
@@ -164,11 +165,11 @@ const projects = () => {
                             local currency."
                                 link="/"
                                 github="https://github.com/ArunChourasia-17"
-                                type="Featured Project"
+                                type="Personal Project"
                             />
                         </div>
                     </div>
-                    <h2 className='font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16 my-64'>Reviews</h2>
+                    <h2 className='font-bold text-8xl mb-32 w-full text-center md:text-6xl xs:text-4xl md:mb-16 my-64'>Testimonials</h2>
                     <Slider />
                 </Layout>
             </main >

@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { motion, useScroll } from 'framer-motion';
 import LiIcon from './LiIcon';
 
-const Details = ({position, company, companyLink, time, address, work}) => {
+const Details = ({ position, company, companyLink, time, address, work }) => {
     const ref = useRef(null);
     return ( <li ref={ref} className='my-8 first:mt-0 last:mb-0 w-[60%] mx-auto flex flex-col items-center justify-between md:w-[80%]'>
 
@@ -46,31 +46,23 @@ const Experience = () => {
 
         <ul className='w-full flex flex-col items-start justify-between ml-4 xs:ml-2'>
             <Details 
-            position="Web Developer" company="Prodigy InfoTech"
-            companyLink="www.prodigyinfotech.com"
-            time="01/04/2024 - 30/04/2024" address="Asansol, (WB) India | [Remote]"
-            work="⦾ Worked on a task responsible for developing new features for our
-            Personal Portfolio Website. Maked responsive, added some amazing visual effects 
-            for looking attractive & stunning view of the website.
-            Tech Used : TailwindCSS/Next.js/Framer Motion"
-            />
+            position="Celebal Summer Intern" company="Celebal Technologies"
+            companyLink="https://celebaltech.com/"
+            time="20/05/2024 - Present" address="Asansol, (WB) India | [Remote]"
+            work="⦾ Worked on a task responsible for developing new features for our KanBan website.
+            Make responsive & user friendly features for our KanBan customers. Implemented drag-and-drop 
+            functionality for easy movement of cards between different lists or stages of workflow. 
+            Include features for users to assign tasks, set due dates, add descriptions, and attach files to cards.
+            Tech Used : HTML,CSS,Javascript,React.js."
+            />  
             <Details 
-            position="Java Developer" company="Code Clause"
-            companyLink="www.codeclause.com"
-            time="01/09/2023 - 30/09/2023" address="Asansol, (WB) India | [Remote]"
-            work="⦾ Worked on a task responsible for developing new features for  
-            Restaurant Management System. It including improving the accuracy and relevance of search results and 
-            developing new tools for data analysis and visualization.
-            Tech Used : Advance-Java/Servlet API/JDBC/MySQL"
-            />
-             <Details 
-            position="Web Developer" company="Oasis Infobyte"
-            companyLink="www.oasisinfobyte.com"
-            time="01/02/2023 - 28/02/2023" address="Asansol, (WB) India | [Remote]"
+            position="Web Development & Designing Intern" company="Oasis Infobyte"
+            companyLink="https://oasisinfobyte.com/"
+            time="24/01/2023 - 05/03/2023" address="Asansol, (WB) India | [Remote]"
             work="⦾ Worked on a task responsible for developing new features for Food Delivery Web App.
             Make responsive & user friendly features for customers as well as for admin panel,
             added multiple payment options via online using debit cards, RazorPay & UPI with the help of stripe payment tools.
-            Tech Used : MongoDB,Express.js,React.js,Node.js."
+            Tech Used : HTML,CSS,Javascript,MongoDB,Express.js,React.js,Node.js."
             />
         </ul>
     </div>

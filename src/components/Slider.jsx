@@ -12,10 +12,10 @@ import { Autoplay, Pagination, Navigation } from 'swiper';
 
 
 import Image from 'next/image';
-import project1 from "../../public/images/projects/crypto-screener-cover-image.jpg";
-import project2 from "../../public/images/projects/agency-website-cover-image.jpg";
-import project3 from "../../public/images/projects/devdreaming.jpg";
-import project4 from "../../public/images/projects/fashion-studio-website.jpg";
+import testimonial1 from "../../public/images/Testimonials/Testimonial (4).png";
+import testimonial2 from "../../public/images/Testimonials/Testimonial (1).png";
+import testimonial3 from "../../public/images/Testimonials/Testimonial (2).png";
+import testimonial4 from "../../public/images/Testimonials/Testimonial (3).png";
 
 export default function App() {
   return (
@@ -59,7 +59,7 @@ export default function App() {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 2500,
+          delay: 3000,
           disableOnInteraction: false,
         }}
         pagination={{
@@ -70,16 +70,16 @@ export default function App() {
         className="mySwiper"
       >
         <SwiperSlide >
-        <Image src={project1} alt="Slide 1" /> 
+        <Image src={testimonial1} alt="Slide 1" /> 
         </SwiperSlide>
         <SwiperSlide>
-        <Image src={project2} alt="Slide 2" /> 
+        <Image src={testimonial2} alt="Slide 2" /> 
         </SwiperSlide>
         <SwiperSlide>
-        <Image src={project3} alt="Slide 3" /> 
+        <Image src={testimonial3} alt="Slide 3" /> 
         </SwiperSlide>
         <SwiperSlide>
-        <Image src={project4} alt="Slide 4" /> 
+        <Image src={testimonial4} alt="Slide 4" /> 
         </SwiperSlide>
       </Swiper>
     </>
