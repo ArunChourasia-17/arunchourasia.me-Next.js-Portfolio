@@ -48,7 +48,7 @@ const Experience = () => {
             <Details 
             position="Celebal Summer Intern" company="Celebal Technologies"
             companyLink="https://celebaltech.com/"
-            time="20/05/2024 - Present" address="Asansol, (WB) India | [Remote]"
+            time="20/05/2024 - 20-07-2024" address="Asansol, (WB) India | [Remote]"
             work="⦾ Worked on a task responsible for developing new features for our KanBan website.
             Make responsive & user friendly features for our KanBan customers. Implemented drag-and-drop 
             functionality for easy movement of cards between different lists or stages of workflow. 
@@ -59,10 +59,12 @@ const Experience = () => {
             position="Web Development & Designing Intern" company="Oasis Infobyte"
             companyLink="https://oasisinfobyte.com/"
             time="24/01/2023 - 05/03/2023" address="Asansol, (WB) India | [Remote]"
-            work="⦾ Worked on a task responsible for developing new features for Food Delivery Web App.
-            Make responsive & user friendly features for customers as well as for admin panel,
-            added multiple payment options via online using debit cards, RazorPay & UPI with the help of stripe payment tools.
-            Tech Used : HTML,CSS,Javascript,MongoDB,Express.js,React.js,Node.js."
+            work="⦾ Worked on a task responsible for developing new features for Food Delivery Web 
+            App. Make responsive & user friendly features for customers as well as for admin panel, 
+            added multiple payment options via online using debit cards, RazorPay & UPI with the help 
+            of stripe payment tools. Included multiple features to enhance overall customer satisfaction.
+            Tech Used : HTML,CSS,Javascript,MongoDB,
+            Express.js,React.js,Node.js."
             />
         </ul>
     </div>
